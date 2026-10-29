@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coursue-Dashboard</title>
+
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/fontawesome.min.css"
+    integrity="sha512-M5Kq4YVQrjg5c2wsZSn27Dkfm/2ALfxmun0vUE3mPiJyK53hQBHYCVAtvMYEC7ZXmYLg8DVG4tF8gD27WmDbsg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />  -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+  <div class="main-container">
+
+
+    <div class="left-bar">
+      <div>
+
+        <div class="logo"><i class="fa-solid fa-circle-stop"></i>
+          <h1>Coursue</h1>
+        </div>
+        <p class="veiw">OVERVIEW</p>
+        <ul class="menu">
+
+          <li><a href=""><i id="per" class="fa-solid fa-table"></i>
+              <p>Dashboard</p>
+            </a></li>
+          <li><a href=""><i class="fa-solid fa-inbox"></i>
+              <p>Inbox</p>
+            </a></li>
+          <li><a href=""><i class="fa-solid fa-clipboard-list"></i>
+              <p>Lesson</p>
+            </a></li>
+          <li><a href=""><i class="fa-solid fa-list-check"></i>
+              <p>Tasks</p>
+            </a></li>
+          <li><a href=""><i class="fa-solid fa-user-group"></i>
+              <p>Group</p>
+            </a></li>
+
+        </ul>
+
+        <p class="veiw">FRIENDS</p>
+        <div class="frieng-us">
+          <div class="friend">
+            <div class="img"></div>
+            <div>
+              <p>Bagas Mahpie</p><span>Friend</span>
+            </div>
+          </div>
+          <div class="friend">
+            <div class="imge"></div>
+            <div>
+              <p>Sir Dandy</p><span>Old friend</span>
+            </div>
+          </div>
+          <div class="friend">
+            <div class="imgs"></div>
+            <div>
+              <p>Jhon Tosan</p><span>Friend</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p class="veiw">Setting</p>
+
+        <ul class="menu">
+          <li><a href=""> <i class="fa-solid fa-gear"></i>
+              <p>Setting</p>
+            </a></li>
+          <li><a id="yellow" href=""><i class="fa-solid fa-arrow-right-from-bracket"></i>
+              <p>Logout</p>
+            </a></li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+
+
+    <div class="right-s">
+
+      <div class="right-1">
+            <i id="bar" class="fa-solid fa-bars-staggered"></i>
+
+
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Search your course.....">
+        </div>
+        <div class="right-1-icon">
+          <i class="fa-solid fa-envelope"></i>
+          <i class="fa-solid fa-bell"></i>
+          <div class="theme-toggle">
+          
+          <i id="btn-1" class="fa-solid fa-sun"></i>
+         <i id="btn-2"class="fa-solid fa-moon"></i>
+          </div>
+        </div>
+        <hr style="width: 2px; height: 50px;">
+        <div class="profile">
+          <div class="imge"></div>
+          <p>Jason Ranti</p>
+        </div>
+      </div>
+
+      <div class="right-inner">
+        <div class="right-in-left">
+
+          <div class="online">
+            <p>Online Course</p>
+            <h1>Sharpen Your Skills with <br> Professional Online Courses</h1>
+            <button onclick="console.log('Join Now clicked');">Join Now <i class="fa-solid fa-angle-right"></i></button>
+          </div>
+
+          <div class="ux">
+            <div class="ux-in1">
+              <i id="ux-icon" class="fa-solid fa-scissors"></i>
+              <section>
+                <span>2/8 Watched</span>
+                <p>UI/UX Design</p>
+              </section>
+              <i id="light" class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+
+            <div class="ux-in2">
+              <i id="ux-icon" class="fa-solid fa-clone"></i>
+              <section>
+                <span>3/8 Watched</span>
+                <p>Branding</p>
+              </section>
+              <i id="light" class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+
+            <div class="ux-in3">
+              <i id="ux-icon" class="fa-solid fa-laptop-file"></i>
+              <section>
+                <span>6/12 Watched</span>
+                <p>Front End</p>
+              </section>
+              <i id="light" class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+
+          </div>
+
+          <div class="con">
+            <h2>Continue Watching</h2>
+            <div class="con-btn">
+              <i id="to-right" class="fa-solid fa-angle-right"></i>
+              <i id="to-left" class="fa-solid fa-angle-right"></i>
+            </div>
+          </div>
+
+
+          <div class="three-div">
+
+            <div class="bigner">
+              <div class="img"> <i class="fa-solid fa-heart"></i> </div>
+              <div id="bigner-text">
+                <i class="fa-solid fa-scissors"></i>
+                <p>UL/UX DESIGN</p>
+              </div>
+              <h3>Optimizing User Experience with the best UL/UX Design</h3>
+              <div class="barr"></div>
+
+              <div class="friend">
+                <div class="imgs"></div>
+                <div>
+                  <p>Bayu Salto</p><span>Mentor</span>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="optimize">
+              <div class="img"> <i class="fa-solid fa-heart"></i> </div>
+              <div id="bigner-text">
+                <i class="fa-solid fa-clone"></i>
+                <p>branding</p>
+              </div>
+              <h3>Reviling the Refresh Branded Rate company image</h3>
+              <div class="barr"></div>
+              <div class="friend">
+                <div class="img"></div>
+                <div>
+                  <p>Padhang Satrio</p><span>Mentor</span>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="riving">
+              <div class="img"> <i class="fa-solid fa-heart"></i> </div>
+              <div id="bigner-text">
+                <i class="fa-solid fa-laptop-file"></i>
+                <p>Front End</p>
+              </div>
+              <h3>Beginner's Guide to Becoming a Professional Front-End Developer</h3>
+              <div class="barr"></div>
+
+              <div class="friend">
+                <div class="imge"></div>
+                <div>
+                  <p>Leonardo samsul</p><span>mentor</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="con">
+            <h2>Your Lesson</h2>
+            <a href=""> see all</a>
+          </div>
+
+          <div class="mentor">
+            <div class="mont-1">
+              <p>Mentor</p>
+              <p>type</p>
+              <p>desc</p>
+              <p>action</p>
+            </div>
+
+            <div class="mont-2">
+              <div class="frie">
+                <div class="imgs"></div>
+                <div>
+                  <p>Jhon Tosan</p><span>Friend</span>
+                </div>
+              </div>
+
+              <div id="mont-text">
+                <i class="fa-solid fa-scissors"></i>
+                <p>UL/UX DESIGN</p>
+              </div>
+              <h3>Understand Of UI/UL Design</h3>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="right-in-right">
+          <div class="static-1">
+            <h3>Statistic</h3><i id="light" class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
+          <div class="outer-static">
+            <div class="static">
+              <div class="imge"></div>
+            </div>
+            <h4>Good Morning Jason🔥</h4>
+            <p>Continue your learning to achive your Target! </p>
+          </div>
+
+
+
+          <div class="chart">
+            <ul class="rate">
+              <li>60 <span>-----------------------------------------------------</span></li>
+              <li>40 <span>-----------------------------------------------------</span></li>
+              <li>20 <span>-----------------------------------------------------</span></li>
+            </ul>
+            <ul class="bars">
+              <li>
+                <div class="bar" data-percentage="20"></div>
+              </li>
+              <li>
+                <div class="bar" data-percentage="40" style="background-image: none;background-color: #8074e2;"></div>
+              </li>
+              <li>
+                <div class="bar" data-percentage="26"></div>
+              </li>
+              <li>
+                <div class="bar" data-percentage="55" style="background-image: none;background-color:#8074e2;"></div>
+              </li>
+              <li>
+                <div class="bar" data-percentage="15"></div>
+              </li>
+            </ul>
+            <div class="tim">
+              <p>1-10 Aug</p>
+              <p>1-10 Aug</p>
+              <p>1-10 Aug</p>
+            </div>
+          </div>
+          <div class="men">
+            <h3>Your mentor </h3><i class="fa-solid fa-plus"></i>
+          </div>
+
+          <div class="member">
+            <div class="folower">
+              <div class="img"><i class="fa-solid fa-plus"></i></div>
+              <div>
+                <p>Phadhay Satio</p>
+                <span>Mentor</span>
+              </div>
+              <div class="folow"><i class="fa-solid fa-user-check"></i>
+                <p>Follow</p>
+              </div>
+            </div>
+
+            <div class="folower">
+              <div class="img"><i class="fa-solid fa-plus"></i></div>
+              <div>
+                <p>Zakir Horizontal</p>
+                <span>Mentor</span>
+              </div>
+              <div class="folow"><i class="fa-solid fa-user-check"></i>
+                <p>Follow</p>
+              </div>
+            </div>
+
+
+            <div class="folower">
+              <div class="img"><i class="fa-solid fa-plus"></i></div>
+              <div>
+                <p>Leonardo Samsul</p>
+                <span>Mentor</span>
+              </div>
+              <div class="folow"><i class="fa-solid fa-user-check"></i>
+                <p>Follow</p>
+              </div>
+            </div>
+
+            <button id="see"> See All</button>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
